@@ -1,0 +1,130 @@
+Migrant dataset column to index mapping:
+----------------------------------------
+0 : hhid1
+1 : hhid
+2 : Sector_name
+3 : State_name
+4 : Region_name
+5 : hhsize
+6 : hhtype
+7 : Socialgr_name
+8 : landposs
+9 : gender_name
+10 : age
+11 : Edu_name
+12 : tech_edu_name
+13 : Reason_desc
+14 : migrant
+15 : internal_migrant
+16 : external_migrant
+17 : out_migrant
+18 : from_rural
+19 : from_urban
+20 : rur_to_urban
+21 : rur_to_rural
+22 : urban_to_urban
+23 : urban_to_rural
+24 : l_upr_sdist_sst
+25 : l_upr_ddist_sst
+26 : l_upr_ast
+27 : per_leav
+28 : part_st_count
+29 : self_emp_nonagr
+30 : self_emp_agr
+31 : self_emp
+32 : reg_wage
+33 : reg_wage_agr
+34 : reg_wage_nonagr
+35 : casual_lab
+36 : casual_lab_agri
+37 : casual_lab_nonagri
+38 : unemployed
+39 : total_emp
+40 : total_emp_agri
+41 : total_emp_nonagri
+42 : student
+43 : other_notlab
+44 : self_emp_prin
+45 : reg_emp_prin
+46 : casual_emp_prin
+47 : unemployed_prin
+48 : student_prin
+49 : notlabor_prin
+50 : not_literate
+51 : lit_bel_prim
+52 : prim_mid
+53 : sec_hisec
+54 : dip_cert
+55 : grad_above
+56 : reas_emp
+57 : reas_studies
+58 : reas_marriage
+59 : sno_act1
+60 : status1
+61 : status_desc
+62 : cur_week_stat1
+63 : nrega
+64 : nregaph1
+65 : nregaph2
+66 : wage_sal_tot_all_activity
+67 : ind_sec
+68 : district_name
+
+States/Country:
+---------------
+Andhra Pradesh
+Karnataka
+Madhya Pradesh
+Gujarat
+Maharashtra
+Dadra & Nagar Haveli
+Daman & Diu
+Jharkhand
+Orissa
+Chhattisgarh
+Meghalaya
+Assam
+West Bengal
+Bihar
+Sikkim
+Arunachal Pradesh
+Nagaland
+Manipur
+Mizoram
+Bangladesh
+Tripura
+Tripura 
+Uttar Pradesh
+Rajasthan
+Jammu & Kashmir
+Himachal Pradesh
+Punjab
+Uttaranchal
+Chandigarh
+Haryana
+Delhi
+Kerala
+Tamil Nadu
+Lakshadweep
+Goa
+Pondicherry
+Andaman & Nicobar Islands
+Other Asian Countries
+Delhi 
+Other Europe 
+Karnataka 
+Pakistan
+Nepal
+Rest of the World 
+UAE
+Andaman & Nicobar Islands  
+Africa 
+Sri Lanka 
+UK
+USA
+Maldives 
+Bhutan
+Afganisthan
+Canada
+
+Total = 54. Hence we need 54X54 matrix to map the relation
